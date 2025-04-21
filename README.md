@@ -1,16 +1,43 @@
-# todo_bloc
+# Todo Bloc 📝 – Flutter
 
-A new Flutter project.
+A simple **Todo** application built using the **Bloc** state management pattern in Flutter. This project helps you understand the fundamentals of the Bloc pattern while building a functional and intuitive to-do app with Flutter.
 
-## Getting Started
+## 🛠️ Tech Stack
 
-This project is a starting point for a Flutter application.
+- **Flutter** – Framework for building natively compiled applications for mobile, web, and desktop from a single codebase
+- **Dart** – Programming language used for Flutter development
+- **Bloc** – State management library for managing app state efficiently
+- **Hive** – Local database for persisting todo items
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Add, update, and delete tasks
+- Mark tasks as completed
+- Store tasks locally using Hive database
+- Manage app state efficiently using the Bloc pattern
+- Simple and clean UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed
+- A code editor like **Visual Studio Code** or **Android Studio**
+
+### Steps to Run Locally
+
+### Clone the repository
+```bash
+git clone https://github.com/caiovellani/todo_bloc.git
+cd todo_bloc
+```
+
+### Install dependencies
+```bash
+flutter pub get
+```
+
+### Run the app
+```bash
+flutter run
+```
